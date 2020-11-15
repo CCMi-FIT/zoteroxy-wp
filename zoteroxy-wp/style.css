@@ -16,3 +16,25 @@
 .zoteroxy-item-title {
   font-weight: bold;
 }
+
+.zoteroxy ul li {
+  margin-bottom: 0.5em;
+}
+
+.zoteroxy .zoteroxy-hidden {
+  display: none;
+}
+
+.zoteroxy-button-bibtex.open {
+  color: gray;
+}
+.zoteroxy-item-actions a {
+  cursor: pointer;
+  margin-top: 0.2em;
+  margin-right: 0.5em;
+}
+.zoteroxy-item-bibtex {
+  margin: 0.2em 2em;
+  padding: 0.5em;
+  border: 1px solid gray;
+}

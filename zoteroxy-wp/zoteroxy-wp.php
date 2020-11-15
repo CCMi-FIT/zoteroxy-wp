@@ -29,7 +29,8 @@ add_action('wp_enqueue_scripts', 'ZoteroxyWP_scripts');
 
 function ZoteroxyWP_shortcode($attrs) {
     $endpoint = $attrs['endpoint'];
-    return "<div class=\"zoteroxy\" data-endpoint=\"$endpoint\"></div>";
+    $lang = empty($attrs['lang']) ? 'en' : $attrs['lang'];
+    return "<div class=\"zoteroxy\" data-endpoint=\"$endpoint\" data-lang=\"$lang\"></div>";
 }
 add_shortcode('zoteroxy', 'ZoteroxyWP_shortcode');
 

@@ -20,6 +20,7 @@ function zoteroxyLang(lang) {
       pages: 'pp.',
       volume: 'vol.',
       issue: 'n.',
+      link: 'Link',
       read: 'Read',
     };
   }

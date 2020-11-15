@@ -3,7 +3,7 @@
 Plugin Name: Zoteroxy WP Integration
 Plugin URI: https://github.com/CCMi-FIT/zoteroxy-wp
 Description: Plugin for integrating simply Zoteroxy into WordPress
-Version: 0.1
+Version: 1.0.0
 Author: Marek Suchánek
 Author URI: http://github.com/MarekSuchanek
 License: MIT

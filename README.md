@@ -1,6 +1,6 @@
 # zoteroxy-wp
 
-WordPress plugin for displaying results provided by [Zoteroxy API]()
+WordPress plugin for displaying results provided by [Zoteroxy API](https://github.com/CCMi-FIT/zoteroxy)
 
 ## Installation
 
@@ -23,7 +23,7 @@ You can simply put this into your WordPress page (or post) wherever you need to.
 
 The arguments are:
 
-* `endpoint` = base URL of the used [Zoteroxy API]() instance, e.g. `https://my.zoteroxy.tld`
+* `endpoint` = base URL of the used [Zoteroxy API](https://github.com/CCMi-FIT/zoteroxy) instance, e.g. `https://my.zoteroxy.tld`
 * `lang` = optional language, currently supported: `en` (default), `cs`
 
 ## License
